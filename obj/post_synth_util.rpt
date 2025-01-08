@@ -1,0 +1,33 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Tue Dec 10 23:57:15 2024
+| Host         : eecs-digital-04 running 64-bit Ubuntu 24.04.1 LTS
+| Command      : report_utilization -file obj/post_synth_util.rpt -hierarchical -hierarchical_depth 4
+| Design       : top_level
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+|    Instance    |      Module     | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top_level      |           (top) |        186 |        186 |       0 |    0 | 111 |      0 |      1 |          0 |
+|   (top_level)  |           (top) |          2 |          2 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   tx_inst      |    tx_scheduler |        141 |        141 |       0 |    0 |  87 |      0 |      1 |          0 |
+|     (tx_inst)  |    tx_scheduler |         37 |         37 |       0 |    0 |  54 |      0 |      0 |          0 |
+|     crc32_inst |           crc32 |        104 |        104 |       0 |    0 |  33 |      0 |      1 |          0 |
+|   write_inst   | write_scheduler |         43 |         43 |       0 |    0 |  23 |      0 |      0 |          0 |
++----------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

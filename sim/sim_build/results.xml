@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1733892289" />
+    <testcase name="test_ethernet_transmission" classname="test_top_level" file="/Users/akshayattaluri/Desktop/Akshay/MIT/Year 3/6.2050/always_comm/sim/test_top_level.py" lineno="10" time="65.79597592353821" sim_time_ns="20019990.001" ratio_time="304273.77540938545" />
+  </testsuite>
+</testsuites>
